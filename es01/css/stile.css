@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+}
+
+.rosso {
+    background-color: red;
+}
+.bianco {
+    background-color: white;
+}
+.rosso {
+    background-color: red;
+}
+
+.bandiera {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.bandiera div {
+    float: left;
+    width: 133.33px;
+    height: 300px;
+}
+
