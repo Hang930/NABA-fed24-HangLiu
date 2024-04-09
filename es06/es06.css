@@ -8,3 +8,30 @@ body {background-color: red;}
     }
     
 nav{ float: right;}
+
+header,
+main,
+aside,
+nav,
+footer,
+.wrapper {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+header {
+    height: 60px;    
+}
+
+.wrapper {
+    display: flex;
+}
+
+main {
+    /* order: 2; */
+    width: 75%
+}
+aside {
+    /* order: 1; */
+    width: 25%;
+}
