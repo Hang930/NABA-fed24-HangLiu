@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 100vh;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.day {
+    flex: 1;
+    margin: 0px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.day:nth-child(2) {
+    background-color: #2196F3;
+}
+
+.day:nth-child(3) {
+    background-color: #FF5722;
+}
